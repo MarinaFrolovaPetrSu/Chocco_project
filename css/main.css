@@ -1182,7 +1182,11 @@ img {
 
 .team__member-image {
   display: inline-block;
-  width: 50%;
+}
+@media screen and (max-width: 480px) {
+  .team__member-image {
+    width: 50%;
+  }
 }
 
 .team__item {
